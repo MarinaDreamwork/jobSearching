@@ -1,6 +1,6 @@
-import HeroBlock from "../heroBlock"
-import NavBarLargeScreen from "./navBarLargeScreen"
-import NavBarSmallScreen from "./navBarSmallScreen"
+import HeroBlock from './heroBlock'
+import NavBarLargeScreen from './navBarLargeScreen'
+import NavBarSmallScreen from './navBarSmallScreen'
 
 const HeaderContainer = ({onMenuOpenButton, onMenuCloseButton}) => {
   return (

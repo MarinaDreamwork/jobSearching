@@ -2,8 +2,8 @@ import React from "react";
 import CategoriesSection from "./components/Categories/categoriesSection";
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
-import Subscription from "./components/subscription";
-import Vacancies from "./components/vacancies";
+import SubscribtionSection from "./components/Subscribtion/subscribtionSection";
+import Vacancies from "./components/Vacancies/vacancies";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <React.StrictMode>
         <CategoriesSection />
         <Vacancies />
-        <Subscription />
+        <SubscribtionSection />
         <Footer />
       </React.StrictMode>
     </>
