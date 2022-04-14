@@ -1,7 +1,7 @@
 import React from "react";
-import CategoriesSection from "./components/categoriesSection";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import CategoriesSection from "./components/Categories/categoriesSection";
+import Footer from "./components/Footer/footer";
+import Header from "./components/Header/header";
 import Subscription from "./components/subscription";
 import Vacancies from "./components/vacancies";
 

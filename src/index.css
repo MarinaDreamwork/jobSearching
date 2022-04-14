@@ -48,6 +48,7 @@ img {
   display: inline-block;
   border: none;
   color: #111238;
+  margin-left: 15px !important;
 }
 
 .button:active {
@@ -99,7 +100,6 @@ img {
   font-size: 16px;
   line-height: 19px;
   padding-left: 15px;
-  margin-right: 15px;
 }
 
 .input:focus {
@@ -373,4 +373,18 @@ img {
     text-align: center;
   }
 
+}
+
+.button-example {
+  background: green;
+  border-radius: 10px;
+}
+
+.input-example {
+  background: pink;
+  border: none;
+  border-radius: 10px;
+}
+.pt-site-footer__submit {
+  background: grey;
 }

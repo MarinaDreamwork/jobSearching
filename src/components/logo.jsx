@@ -1,10 +1,10 @@
 import LogoImg from '../img/logo.svg';
 
-const Logo = () => {
+const Logo = ({nameOfClass, altDescr}) => {
   return (
     <>
-      <img src={ LogoImg } className='logo-link' alt='logo: find your job'/>
-    </> 
+      <img src={ LogoImg } className={nameOfClass} alt={altDescr}/>
+    </>
   )
 }
 
